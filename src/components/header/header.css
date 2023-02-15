@@ -1,0 +1,35 @@
+.navbar-brand img {
+  height: 50px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.nav-item{
+  transition: all 450ms ease;
+  padding: 5px;
+}
+
+.nav-item:hover {
+  background-color: var(--darkColor4);
+}
+
+.nav-link:hover,
+button.nav-link:hover{
+  color: var(--lightColor2) !important;
+}
+
+button.navbar-toggler {
+  background-color: var(--darkColor1);
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+  .nav-item:hover {
+    background-color: transparent;
+  }
+}
+
+button.nav-link {
+  background: transparent;
+  outline: none;
+  border: none;
+}

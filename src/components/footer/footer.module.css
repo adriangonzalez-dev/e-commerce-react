@@ -1,0 +1,34 @@
+.footer{
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.contact p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+@media (max-width:700px){
+    .footer{
+        flex-direction: column;
+    }
+
+    .contact {
+
+        align-items: center;
+        text-align: center;
+    }
+}

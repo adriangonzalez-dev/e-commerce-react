@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+div#root {
+    width: 100vw;
+    height: 100vh;
+}
+
+html{
+    font-family: var(--primaryFont);
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+/* ***********Custom properties*********** */
+:root {
+    --first-color: rgb(217,0,98);
+    --first-alpha-color: rgba(217,0,98,.75);
+    --second-color: rgb(20,25,45);
+    --second-alpha-color: rgb(20,25,45,.75);
+    --third-color: rgb(80,20,100);
+    --third-alpha-color: rgb(80,20,100,.75);
+
+    --link-color: rgb(80,158,227);
+    --link-alpha-color: rgb(80,158,227);
+
+    --bg-color:rgb(245,245,245);
+    --bg-alpha-color: rgba(245,245,245,.75);
+    
+    --primaryFont: 'Roboto Condensed', sans-serif;
+    --secondaryFont: 'Raleway', sans-serif;
+
+    --lightColor1:rgb(246, 246, 246);
+    --lightColor1-alpha:rgba(246, 246, 246, .75);
+    --lightColor2:rgb(199, 255, 216);
+    --lightColor2-alpha:rgba(199, 255, 216,.75);
+    --lightColor3:rgb(152, 222, 217);
+    --lightColor3-alpha:rgba(152, 222, 217,.75);
+    --lightColor4:rgb(22, 29, 111);
+    --lightColor4-alpha:rgba(22, 29, 111,.75);
+
+    --darkColor1:rgb(37, 37, 37);
+    --darkColor2:rgb(255, 0, 0);
+    --darkColor3:rgb(175, 4, 4);
+    --darkColor4:rgb(65, 65, 65);
+    --darkColor1-alpha:rgba(37, 37, 37,.75);
+    --darkColor2-alpha:rgba(255, 0, 0,.75);
+    --darkColor3-alpha:rgba(175, 4, 4,.75);
+    --darkColor4-alpha:rgba(65, 65, 65,.75);
+
+}
+/* **************Reset style************** */
+
+a {
+    color:var(--darkColor1);
+    transition: all 450ms ease-out;
+}
+
+a:hover {
+    color: var(--darkColor1-alpha);
+}
+
+.nav-link{
+    color: inherit;
+}
+
+.nav-link:focus{
+    color: inherit;
+}
+
+.lightMode {
+    color: var(--darkColor4);
+    background-color: var(--lightColor1);
+}
+
+.darkMode {
+    color: var(--lightColor1);
+    background-color: var(--darkColor4);
+}
+
+.lightModeSection {
+    color: var(--darkColor4);
+    background-color: var(--lightColor3);
+}
+
+.darkModeSection {
+    color: var(--lightColor1);
+    background-color: var(--darkColor1);
+}
+
+.textLight{
+    color: var(--darkColor4) !important;
+}
+
+.textDark {
+    color: var(--lightColor1)!important;
+}
+
+.textLight:focus:visited{
+    color: var(--darkColor4) !important;
+}
+
+.textDark:focus:visited {
+    color: var(--lightColor1)!important;
+}
+
+.textLight:hover {
+    color: var(--darkColor4-alpha) !important;
+}
+
+.textDark:hover {
+    color: var(--lightColor1-alpha)!important;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { }
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/*  X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
+
+/*  XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {  }

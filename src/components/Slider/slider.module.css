@@ -1,0 +1,26 @@
+
+
+.card {
+    display: flex;
+    width: 100%;
+    min-height: 150px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: var(--lightColor4);
+    z-index: 0;
+}
+
+.card i {
+    font-size: 2rem;
+}
+
+.card b {
+    font-size: 1.5rem;
+    
+}
+
+.card p {
+    font-size: 1.2rem;
+}
